@@ -108,10 +108,10 @@ public class CaesarCipher {
 
         // Prompt the user for an integer key value to be used for encryption or decryption
         System.out.print("Enter an integer key value for encryption or decryption: ");
-        int shift = input.nextInt();
+        int key = input.nextInt();
 
         // Create an instance of the CaesarCipher class with the user-provided key value
-        CaesarCipher cipher = new CaesarCipher(shift);
+        CaesarCipher cipher = new CaesarCipher(key);
 
         // Prompt the user for whether to encrypt or decrypt the message
         System.out.print("Enter 'E' for encryption or 'D' for decryption: ");
